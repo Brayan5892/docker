@@ -37,7 +37,7 @@ app.layout = html.Div([
         className="row",
         children=[
             html.Div(
-                className="columns",
+                
                 children=[
                     html.Div(
                         children=dcc.Graph(
@@ -48,9 +48,9 @@ app.layout = html.Div([
                                 'layout': {
                                     'height': 550,
                                     'margin': {
-                                        'l': 30, 'b': 50, 't': 0, 'r': 0
+                                        'l': 30, 'b': 50, 't': 100, 'r': 0
                                     },
-                                    'title':'See plot of two columns',
+                                    'title':'Risaralda',
                                  'showlegend': True ,
                                  'legend': {
                                      'x': 1.2,
@@ -65,7 +65,7 @@ app.layout = html.Div([
                 ]
             ),
             html.Div(
-                className="six columns",
+                
                 children=html.Div([
                     dcc.Graph(
                         id='right-top-graph',
@@ -74,9 +74,9 @@ app.layout = html.Div([
                             'layout': {
                                     'height': 550,
                                     'margin': {
-                                        'l': 30, 'b': 50, 't': 0, 'r': 0
+                                        'l': 30, 'b': 50, 't': 100, 'r': 0
                                     },
-                                    'title':'See plot of two columns',
+                                    'title':'Atlantico',
                                  'showlegend': True ,
                                  'legend': {
                                      'x': 1.2,
@@ -90,7 +90,7 @@ app.layout = html.Div([
                 ])
             ),
             html.Div(
-                className="six columns",
+                
                 children=html.Div([
                     dcc.Graph(
                         id='right-bottom-graph',
@@ -99,9 +99,9 @@ app.layout = html.Div([
                             'layout': {
                                     'height': 550,
                                     'margin': {
-                                        'l': 30, 'b': 50, 't': 0, 'r': 0
+                                        'l': 30, 'b': 100, 't': 100, 'r': 0
                                     },
-                                    'title':'See plot of two columns',
+                                    'title':'Choco',
                                  'showlegend': True ,
                                  'legend': {
                                      'x': 1.2,
